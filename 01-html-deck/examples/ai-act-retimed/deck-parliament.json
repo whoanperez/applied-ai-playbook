@@ -1,0 +1,441 @@
+{
+ "title": "The AI Act, re-timed",
+ "lang": "en",
+ "format": "slides",
+ "minutes": 20,
+ "footer": "Halden Observatory",
+ "brand": {
+  "name": "Halden Observatory",
+  "primary": "#5A1E2E",
+  "accent": "#8EC3E0",
+  "background": "light",
+  "fonts": {
+   "display": "IBM Plex Serif",
+   "text": "IBM Plex Sans",
+   "display_weight": 600
+  },
+  "logo": "halden-mark.svg",
+  "art": [
+   "contour",
+   "arcs"
+  ]
+ },
+ "story": {
+  "thesis": "The AI Act's high-risk deadlines moved by 12 to 16 months, but nothing was repealed: re-plan the compliance roadmap, don't pause it.",
+  "audience": "Leadership and compliance teams of companies that use AI in the EU",
+  "ask": "Re-plan the roadmap to the new dates this quarter"
+ },
+ "parts": [
+  {
+   "title": "Opening",
+   "minutes": 1,
+   "hide": true
+  },
+  {
+   "title": "What happened",
+   "desc": "One regulation, three dates",
+   "minutes": 4
+  },
+  {
+   "title": "The new calendar",
+   "desc": "What moved and by how much",
+   "minutes": 6
+  },
+  {
+   "title": "What changed, what didn't",
+   "desc": "Smaller changes and fixed duties",
+   "minutes": 4
+  },
+  {
+   "title": "Check yourself",
+   "desc": "One question for the room",
+   "minutes": 2
+  },
+  {
+   "title": "What to do this quarter",
+   "desc": "Six checks before year end",
+   "minutes": 2
+  },
+  {
+   "title": "Sources and close",
+   "minutes": 1
+  }
+ ],
+ "slides": [
+  {
+   "layout": "cover",
+   "part": "Opening",
+   "kicker": "Briefing for leadership and compliance teams",
+   "title": "The AI Act, re-timed",
+   "subtitle": "What the Digital Omnibus on AI changed, what it left alone, and what to do this quarter.",
+   "meta": [
+    {
+     "label": "Date",
+     "value": "October 2026"
+    },
+    {
+     "label": "Length",
+     "value": "20 minutes"
+    },
+    {
+     "label": "Covers",
+     "value": "Regulation (EU) 2026/1744"
+    }
+   ],
+   "notes": "Open with the one-line takeaway: nothing in the AI Act was repealed, but the clock for high-risk systems moved. Everything on screen is sourced on the last slide."
+  },
+  {
+   "layout": "agenda",
+   "notes": "Walk through the parts quickly. Click any line to jump to it."
+  },
+  {
+   "layout": "statement",
+   "part": "What happened",
+   "kicker": "What happened",
+   "title": "Nothing was repealed. The clock moved.",
+   "text": "The Digital Omnibus on AI amends the AI Act. It entered into force on 27 July 2026, days before the original high-risk deadline.",
+   "source": "Source: Regulation (EU) 2026/1744, EUR-Lex.",
+   "notes": "Political agreement came on 6 May 2026. The regulation was adopted on 8 July, published on 24 July and entered into force on 27 July 2026."
+  },
+  {
+   "layout": "mosaic",
+   "kicker": "What happened",
+   "title": "One regulation, adopted and in force within three weeks",
+   "tiles": [
+    {
+     "value": "8 Jul",
+     "label": "Adopted by Parliament and Council"
+    },
+    {
+     "value": "24 Jul",
+     "label": "Published in the Official Journal"
+    },
+    {
+     "value": "27 Jul",
+     "label": "In force, three days after publication",
+     "tone": "block"
+    },
+    {
+     "art": {
+      "style": "arcs",
+      "seed": 4
+     },
+     "wide": true
+    },
+    {
+     "value": "2026/1744",
+     "label": "The Digital Omnibus on AI",
+     "tone": "dark"
+    }
+   ],
+   "source": "Source: Regulation (EU) 2026/1744, EUR-Lex. All dates 2026.",
+   "notes": "Three weeks from adoption to entry into force. The speed matters: it landed just before the original 2 August 2026 deadline."
+  },
+  {
+   "layout": "number",
+   "part": "The new calendar",
+   "value": "+16",
+   "unit": "months",
+   "caption": "Extra time for stand-alone high-risk systems (Annex III).",
+   "kicker": "The new calendar",
+   "title": "High-risk systems gained more than a year",
+   "bullets": [
+    {
+     "title": "Annex III",
+     "text": "2 Aug 2026 → 2 Dec 2027 (hiring, credit scoring, public services)"
+    },
+    {
+     "title": "Annex I",
+     "text": "2 Aug 2027 → 2 Aug 2028 (AI inside regulated products)"
+    },
+    {
+     "title": "Article 50(2)",
+     "text": "marking duty: four more months for systems already on the market"
+    }
+   ],
+   "source": "Sources: Regulation (EU) 2026/1744; Gibson Dunn; Orrick.",
+   "notes": "Annex III is the big one for most organisations: hiring tools, credit scoring, access to public services. Annex I covers AI built into regulated products."
+  },
+  {
+   "layout": "compare",
+   "kicker": "The new calendar",
+   "title": "Two dates moved; the rest of the schedule still stands",
+   "default": 1,
+   "states": [
+    {
+     "label": "Original schedule (2024)",
+     "chart": {
+      "type": "timeline",
+      "points": [
+       {
+        "date": "2 Feb 2025",
+        "text": "Prohibited practices and AI literacy",
+        "state": "done"
+       },
+       {
+        "date": "2 Aug 2025",
+        "text": "General-purpose AI models",
+        "state": "done"
+       },
+       {
+        "date": "2 Aug 2026",
+        "text": "Transparency duties (Article 50)"
+       },
+       {
+        "date": "2 Aug 2026",
+        "text": "High-risk systems, Annex III"
+       },
+       {
+        "date": "2 Aug 2027",
+        "text": "High-risk systems, Annex I"
+       }
+      ]
+     }
+    },
+    {
+     "label": "After the Omnibus (2026)",
+     "chart": {
+      "type": "timeline",
+      "points": [
+       {
+        "date": "2 Feb 2025",
+        "text": "Prohibited practices and AI literacy",
+        "state": "done"
+       },
+       {
+        "date": "2 Aug 2025",
+        "text": "General-purpose AI models",
+        "state": "done"
+       },
+       {
+        "date": "2 Aug 2026",
+        "text": "Transparency duties (Article 50)",
+        "state": "done"
+       },
+       {
+        "date": "2 Dec 2027",
+        "was": "was Aug 2026",
+        "text": "High-risk systems, Annex III",
+        "state": "hl",
+        "tag": "+16 months"
+       },
+       {
+        "date": "2 Aug 2028",
+        "was": "was Aug 2027",
+        "text": "High-risk systems, Annex I",
+        "state": "hl",
+        "tag": "+12 months"
+       }
+      ]
+     }
+    }
+   ],
+   "source": "Sources: Regulation (EU) 2024/1689, Article 113; Regulation (EU) 2026/1744.",
+   "notes": "Start on 'Original schedule', then switch to 'After the Omnibus' and let the room see which dates move. Filled dots already apply."
+  },
+  {
+   "layout": "chart",
+   "kicker": "The new calendar",
+   "title": "Three duties already apply while the high-risk clock restarts",
+   "wide": true,
+   "chart": {
+    "type": "gantt",
+    "from": "2025",
+    "to": "2029",
+    "rows": [
+     {
+      "label": "Prohibited practices",
+      "bars": [
+       {
+        "start": "2025-02",
+        "text": "From Feb 2025"
+       }
+      ]
+     },
+     {
+      "label": "General-purpose AI models",
+      "bars": [
+       {
+        "start": "2025-08",
+        "text": "From Aug 2025"
+       }
+      ]
+     },
+     {
+      "label": "Transparency, Article 50",
+      "bars": [
+       {
+        "start": "2026-08",
+        "text": "From Aug 2026"
+       }
+      ]
+     },
+     {
+      "label": "High-risk, Annex III",
+      "sub": "Stand-alone uses",
+      "bars": [
+       {
+        "start": "2026-08",
+        "end": "2027-12",
+        "text": "was Aug 2026",
+        "kind": "was"
+       },
+       {
+        "start": "2027-12",
+        "text": "From Dec 2027",
+        "kind": "hl"
+       }
+      ]
+     },
+     {
+      "label": "High-risk, Annex I",
+      "sub": "Inside regulated products",
+      "bars": [
+       {
+        "start": "2027-08",
+        "end": "2028-08",
+        "text": "was Aug 2027",
+        "kind": "was"
+       },
+       {
+        "start": "2028-08",
+        "text": "Aug 2028",
+        "kind": "hl"
+       }
+      ]
+     }
+    ],
+    "marks": [
+     {
+      "at": "2026-07",
+      "text": "Omnibus in force"
+     }
+    ]
+   },
+   "source": "Sources: Regulation (EU) 2024/1689, Article 113; Regulation (EU) 2026/1744.",
+   "notes": "Same dates, read as ranges. Dashed boxes show where the old deadline sat. The dotted line is the Omnibus entering into force on 27 July 2026."
+  },
+  {
+   "layout": "columns",
+   "part": "What changed, what didn't",
+   "kicker": "What changed, what didn't",
+   "title": "Four smaller changes reach beyond the deadlines",
+   "items": [
+    {
+     "icon": "eye",
+     "title": "Marking",
+     "text": "Generative systems already on the market have until 2 Dec 2026 to mark AI-generated content."
+    },
+    {
+     "icon": "ban",
+     "title": "New prohibitions",
+     "text": "Article 5 now bans non-consensual intimate images of real people and child sexual abuse material."
+    },
+    {
+     "icon": "education",
+     "title": "AI literacy",
+     "text": "Article 4 now asks organisations to support staff AI literacy, not to ensure a set level."
+    },
+    {
+     "icon": "building",
+     "title": "Small mid-caps",
+     "text": "A new category of company gets simplifications that were reserved for SMEs."
+    }
+   ],
+   "source": "Sources: Regulation (EU) 2026/1744; Gibson Dunn and Orrick report the new bans apply from 2 Dec 2026.",
+   "notes": "One sentence per change. Small mid-caps are defined in Recommendation (EU) 2025/1099."
+  },
+  {
+   "layout": "dark",
+   "kicker": "What changed, what didn't",
+   "title": "The Omnibus is not a pause",
+   "text": "Three sets of duties already apply. The risk-based structure of the AI Act stays; what moved is when parts of it apply.",
+   "bullets": [
+    "Prohibited practices, since 2 Feb 2025",
+    "General-purpose AI models, since 2 Aug 2025",
+    "Transparency duties, since 2 Aug 2026"
+   ],
+   "source": "Source: Regulation (EU) 2024/1689, Article 113.",
+   "notes": "This is the slide that stops people from reading the Omnibus as a delay of everything."
+  },
+  {
+   "layout": "quiz",
+   "part": "Check yourself",
+   "title": "A bank builds a new credit-scoring model. From when do the high-risk requirements apply?",
+   "options": [
+    {
+     "text": "2 August 2026",
+     "why": "That was the original date. The Omnibus moved Annex III to 2 December 2027."
+    },
+    {
+     "text": "2 December 2027",
+     "correct": true,
+     "why": "Creditworthiness assessment is an Annex III use, so the new date is 2 December 2027."
+    },
+    {
+     "text": "2 August 2028",
+     "why": "That is the new date for Annex I: AI built into regulated products."
+    }
+   ],
+   "notes": "Ask the room to vote with hands before you click the answer they chose."
+  },
+  {
+   "layout": "checklist",
+   "part": "What to do this quarter",
+   "kicker": "What to do this quarter",
+   "title": "Six checks to finish before year end",
+   "items": [
+    "List every AI system in use and mark which fall under Annex III or Annex I.",
+    "Re-plan the roadmap to 2 Dec 2027 and 2 Aug 2028, without pausing it.",
+    "If you provide generative tools already on the market, meet the marking duty by 2 Dec 2026.",
+    "Check content-generation features against the new Article 5 bans.",
+    "Keep the staff AI-literacy programme running.",
+    "Check whether the company qualifies as a small mid-cap."
+   ],
+   "note": "Suggested actions, not legal advice. Tick them live with the team that owns each one.",
+   "notes": "Tick each item with its owner in the room."
+  },
+  {
+   "layout": "sources",
+   "part": "Sources and close",
+   "kicker": "Sources",
+   "title": "Where every date comes from",
+   "rows": [
+    {
+     "source": "Regulation (EU) 2026/1744 (EUR-Lex)",
+     "use": "Adoption, publication and entry into force; new dates; Articles 4, 5 and 50",
+     "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+    },
+    {
+     "source": "Regulation (EU) 2024/1689 (EUR-Lex)",
+     "use": "Original schedule, Article 113"
+    },
+    {
+     "source": "Gibson Dunn, EU AI Act Omnibus Agreement (2026)",
+     "use": "Political agreement of 6 May 2026; date of the new prohibitions"
+    },
+    {
+     "source": "Orrick, Digital Omnibus Finalizes 8 Compliance Changes (July 2026)",
+     "use": "Summary of changes; small mid-caps"
+    }
+   ],
+   "notes": "Consulted 5 October 2026. General information, not legal advice."
+  },
+  {
+   "layout": "closing",
+   "kicker": "Thank you",
+   "title": "The deadline moved. The work didn't.",
+   "meta": [
+    {
+     "label": "Prepared by",
+     "value": "Halden Observatory"
+    },
+    {
+     "label": "Note",
+     "value": "Fictional organisation, made to demonstrate html-deck"
+    }
+   ],
+   "notes": "Close on the line on screen. Halden Observatory is fictional."
+  }
+ ]
+}
