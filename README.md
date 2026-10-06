@@ -9,6 +9,7 @@ Small, complete AI tools for real work, with a focus on **government and regulat
 | # | Tool | What it does |
 |---|---|---|
 | 01 | [**html-deck**](01-html-deck/) | A Claude skill that turns the conversation you already had into a designed, interactive HTML presentation in your brand. It's light enough for Sonnet, and the source sits inside the HTML so the deck can be edited later. |
+| 02 | [**Review kit**](02-review-kit/) | Three Claude skills to get your work past a committee: `rulebook-check` checks every requirement of a call or regulation against your document, `review-tracker` keeps the same review standard across versions, and `defense-rehearsal` simulates the panel's questions. |
 
 More tools will be added here, one at a time.
 
@@ -28,6 +29,7 @@ Herramientas de IA pequeñas y completas para trabajo real, con foco en **gobier
 | # | Herramienta | Qué hace |
 |---|---|---|
 | 01 | [**html-deck**](01-html-deck/) | Una skill de Claude que convierte la conversación que ya tuviste en una presentación HTML diseñada e interactiva, con tu marca. Es lo bastante ligera para Sonnet, y el archivo fuente va dentro del HTML para poder editar el deck después. |
+| 02 | [**Kit de revisión**](02-review-kit/) | Tres skills de Claude para que tu trabajo pase el comité: `rulebook-check` revisa cada requisito de una convocatoria o norma contra tu documento, `review-tracker` mantiene la misma vara de revisión entre versiones y `defense-rehearsal` simula las preguntas del panel. |
 
 Iré sumando más herramientas aquí, una a la vez.
 
