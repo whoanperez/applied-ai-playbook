@@ -199,7 +199,7 @@ def chart(c, i):
         rows = []
         for r in c.get("rows") or []:
             bars = "".join(f'<span class="g-bar {esc(b.get("kind",""))}" data-start="{esc(b.get("start"))}"{" data-end=%s" % json.dumps(str(b["end"])) if b.get("end") else ""}>{md(b.get("text",""))}</span>' for b in r.get("bars") or [])
-            sub = f'<br><span>{md(r["sub"])}</span>' if r.get("sub") else ""
+            sub = f'<span>{md(r["sub"])}</span>' if r.get("sub") else ""
             lab = f'<b>{md(r.get("label",""))}</b>' if r.get("sub") else md(r.get("label", ""))
             rows.append(f'<div class="g-row"><span class="g-lab">{lab}{sub}</span><div class="g-trk">{bars}</div></div>')
         marks = "".join(f'<span class="g-mark" data-at="{esc(m.get("at"))}"><span>{md(m.get("text",""))}</span></span>' for m in c.get("marks") or [])
